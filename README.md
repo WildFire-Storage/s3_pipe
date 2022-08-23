@@ -1,6 +1,12 @@
 # s3_pipe
 A python program that lets you direct stdin/stdout to/from S3 pipes.
 
+# Pre-release
+This code is early in testing.  Most testing is using the "raw" engine against BackBlaze B2.  The "boto3" engine is known to not work against B2, but the specific issue has not be identified.
+# Give us feedback
+If you try this code out, please send a note to "doug @at@ wildfire-storage.com" with feedback.
+#
+
 ## Usage:
 
 ```
